@@ -1,9 +1,15 @@
 import React from 'react';
-import IntroBtn from '../components/IntroBtn';
-import Wrapper from '../components/Wrapper';
+import IntroBtn from '../components/IntroBtn/IntroBtn';
 
 function IntroPage() {
+    return (
+        <div>
+            <h3>SZEWAH CHIN</h3>
+            <h4>Fullstack Web Developer</h4>
+            <IntroBtn></IntroBtn>
+        </div>
+    )
 
 }
 
-export default Intro;
+export default IntroPage;
