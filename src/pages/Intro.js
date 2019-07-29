@@ -1,5 +1,5 @@
 import React from 'react';
-import IntroBtn from '../components/introBtn';
+import IntroBtn from '../components/IntroBtn';
 
 function introPage() {
 
