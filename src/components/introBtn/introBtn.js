@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const IntroBtn = props => {
     return (
-        <Button variant="secondary">Secondary</Button>
+        <Button variant="secondary">Testing</Button>
     )
 };
 

@@ -1,5 +1,7 @@
 import React from 'react';
 import './App.css';
+import IntroBtn from './components/IntroBtn/IntroBtn';
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
         <h4>
           Fullstack Web Developer
         </h4>
+        <IntroBtn>Testing</IntroBtn>
       </header>
     </div>
   );
