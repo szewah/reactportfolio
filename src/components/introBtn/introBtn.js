@@ -13,7 +13,10 @@ const IntroBtn = props => {
     )
 };
 
+
+
 let btnStyle = {
+    marginTop: 5,
     border: 0
 }
 
