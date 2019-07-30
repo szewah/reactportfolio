@@ -25,6 +25,11 @@
     height: 100vh;
 }
 
+.card-colum {
+    background: red;
+    padding: 0;
+}
+
 .contactPage {
     background: pink;
     width: 100vw;
