@@ -1,20 +1,24 @@
-import React from './node_modules/react';
+import React from 'react';
+import {Navbar, Nav} from 'react-bootstrap';
 import './style.css';
 
-const Navbar = props => {
+const NavBar = props => {
     return (
         <div>
-            <nav className='navbar'>
-                <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTACT</li>
-                </ul>
-            </nav>
+            <Navbar sticky="top" collapseOnSelect expand='lg' bg='dark' variant='dark'>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+                <Nav className="mr-auto">
+                    <Nav.Link href="#home">Home</Nav.Link>
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Link href="#contact">Contact</Nav.Link>
+                </Nav>
+            </Navbar.Collapse>
+            </Navbar>
         </div>
 
     )
 }
 
-export default Navbar
+export default NavBar

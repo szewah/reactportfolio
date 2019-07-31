@@ -8,7 +8,6 @@ import PortfolioPage from './pages/Portfolio';
 function App() {
   return (
     <div className="App">
-
         <IntroPage></IntroPage>
         <AboutPage></AboutPage>
         <PortfolioPage></PortfolioPage>
