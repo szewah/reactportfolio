@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 
 const IntroBtn = props => {
     return (
-        <div>
+        <div className="learnMoreIntoBtn">
             <p>Learn More</p>
             <Button className="introBtn" variant="outline-secondary" style={btnStyle}>
                 <i className="fas fa-arrow-down"></i>

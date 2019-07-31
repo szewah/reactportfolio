@@ -13,6 +13,22 @@ h3.introH3 {
     padding-top: 250px;
 }
 
+.learnMoreIntoBtn {
+    padding-top: 20px;
+}
+
+.fa-arrow-down {
+    outline: none;
+    animation: blink 2s linear infinite;
+    font-size: 30px;
+}
+
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
+
 .aboutPage {
     background: purple;
     width: 100vw;
