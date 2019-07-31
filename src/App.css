@@ -15,12 +15,19 @@ h3.introH3 {
 
 .learnMoreIntoBtn {
     padding-top: 20px;
+    margin-top: 5px;
+    /* outline: none; */
+}
+
+.introBtnArrow {
     outline: none;
+    border: none;
 }
 
 .fa-arrow-down {
     animation: blink 2s linear infinite;
     font-size: 30px;
+    outline: none;
 }
 
 @keyframes blink {
