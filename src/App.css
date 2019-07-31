@@ -2,14 +2,15 @@
     text-align: center;
 }
 
-.container {
-    margin-top: 50px;
-}
-
 .introPage {
     background: pink;
     width: 100vw;
     height: 100vh;
+    position: relative;
+}
+
+h3.introH3 {
+    padding-top: 250px;
 }
 
 .aboutPage {
