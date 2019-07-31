@@ -15,10 +15,10 @@ h3.introH3 {
 
 .learnMoreIntoBtn {
     padding-top: 20px;
+    outline: none;
 }
 
 .fa-arrow-down {
-    outline: none;
     animation: blink 2s linear infinite;
     font-size: 30px;
 }
