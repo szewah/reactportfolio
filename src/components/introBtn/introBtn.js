@@ -7,7 +7,9 @@ class IntroBtn extends Component {
     handleOnClick = (event) => {
         event.preventDefault();
         alert("I was clicked");
+        document.getElementsByClassName('porfolioDiv').scrollIntoView();
     }
+    
     render() {
         return (
             <div className="learnMoreIntoBtn">

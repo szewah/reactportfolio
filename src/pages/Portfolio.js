@@ -6,7 +6,7 @@ const PortfolioCards = () => {
         <div className="porfolioDiv">
             <h3 className="portfolioH3">RECENT PROJECTS</h3>
             <a href="https://github.com/szewah">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
             </a>
             <Cards></Cards>
         </div>

@@ -1,11 +1,11 @@
 import React from 'react';
-import Navigationbar from '../components/Navbar/Navbar.js'
+// import Navigationbar from '../components/Navbar/Navbar.js'
 
 
 function AboutPage() {
     return (
         <div className="aboutPage">
-            <Navigationbar></Navigationbar>
+            {/* <Navigationbar></Navigationbar> */}
             <h3 className="aboutH3">ABOUT</h3>
             <p className="aboutParagraph"> I'm Szewah. I am a graduate of Columbia University's Coding Bootcamp. 
                 I'm currently looking for a starting position to build on my skills. 
