@@ -84,13 +84,12 @@ h3.introH3 {
 }
 
 .fa-github {
-    font-size: 50px;
+    font-size: 40px;
     padding-bottom: 50px;
     color: black;
 }
 
-.card-colum {
-    background: red;
+.card-column {
     padding: 0;
 }
 
