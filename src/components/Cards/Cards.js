@@ -1,9 +1,9 @@
 import React from 'react';
 import {Container, Row, Col, Card, Button} from 'react-bootstrap';
 
-const PortCards = (props) => {
+const PortCards = () => {
     return (
-        <Container>
+        <Container className="cardsContainer">
             <Row>
                 <Col className="card-colum">
                     <Card style={{ width: '100%' }}>

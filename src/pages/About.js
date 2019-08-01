@@ -13,6 +13,12 @@ function AboutPage() {
                 audiences. 
                 I'm a strategic thinker who has both the larger picture and the finer details of 
                 execution in mind.</p>
+            <i className="far fa-newspaper"></i>
+            <p>10 years in journalism</p>
+            <i className="fas fa-bullhorn"></i>
+            <p>11 years in corporate communications</p>
+            <i className="fas fa-language"></i>
+            <p>Mandarin, Cantonese, English</p>
         </div>
     )
 }
