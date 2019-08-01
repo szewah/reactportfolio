@@ -5,7 +5,7 @@ import IntroBtn from '../components/IntroBtn/IntroBtn';
 
 function IntroPage() {
     return (
-        <div className='introPage'>
+        <div id="introPage" className='introPage'>
             <Container>
                 <h3 className="introH3">SZEWAH CHIN</h3>
                 <h4>Fullstack Web Developer</h4>

@@ -3,7 +3,7 @@ import React from 'react';
 
 function ContactPage () {
     return (
-        <div className="contacts">
+        <div id="contacts" className="contacts">
             <h3 className="contactH3">CONTACT</h3>
             <p className="contactText">How can I help you today?</p>
             <a href="https://www.linkedin.com/in/sze-wah-chin-%E7%A7%A6%E6%80%9D%E5%8D%8E-87a14a14/"  target="_blank" rel="noopener noreferrer">

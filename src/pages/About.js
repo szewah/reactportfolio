@@ -4,7 +4,7 @@ import React from 'react';
 
 function AboutPage() {
     return (
-        <div className="aboutPage">
+        <div id="about" className="aboutPage">
             {/* <Navigationbar></Navigationbar> */}
             <h3 className="aboutH3">ABOUT</h3>
             <p className="aboutParagraph"> I'm Szewah. I am a graduate of Columbia University's Coding Bootcamp. 
