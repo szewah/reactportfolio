@@ -12,22 +12,22 @@ const PortCards = () => {
         <Container className="cardsContainer">
             <Row>
                 <Col className="card-column">
-                    <Card style={{ width: '100%' }}>
-                        <a href="" target="_blank" ref="noopener noreferrer">
+                    <a href="https://szewah.github.io/bluellama/templates/index.html" target="_blank" rel="noopener noreferrer">
+                        <Card style={{ width: '100%', border: "none" }}>
                             <Card.Img variant="top" src={bluellama} />
-                        </a>
-                    </Card>
+                        </Card>
+                    </a>
                 </Col>
                 <Col className="card-column">
-                    <Card style={{ width: '100%' }}>
-                        <a href="" target="_bland" ref="noopener noreferrer">
+                    <a href="https://szewah.github.io/clickgame/" target="_blank" rel="noopener noreferrer">
+                        <Card style={{ width: '100%', border: "none" }}>
                             <Card.Img variant="top" src={clickgame} />
-                        </a>
-                    </Card>
+                        </Card>
+                    </a>
                 </Col>
                 <Col className="card-column">
-                    <a href="https://whispering-plateau-42486.herokuapp.com/" target="_blank" ref="noopener noreferrer">
-                        <Card style={{ width: '100%' }}>
+                    <a href="https://whispering-plateau-42486.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <Card style={{ width: '100%', border: "none"  }}>
                             <Card.Img variant="top" src={eatDaBurger } />
                         </Card>       
                     </a>         
@@ -35,22 +35,22 @@ const PortCards = () => {
             </Row>
             <Row>
                 <Col className="card-column">
-                    <a href="https://szewah.github.io/gif_fantastic/" target="_blank" ref="noopener noreferrer">
-                        <Card style={{ width: '100%' }}>
+                    <a href="https://szewah.github.io/gif_fantastic/" target="_blank" rel="noopener noreferrer">
+                        <Card style={{ width: '100%', border: "none"  }}>
                             <Card.Img variant="top" src={giftastic} />  
                         </Card>
                     </a>
                 </Col>
                 <Col className="card-column">
-                    <a href="https://sheltered-beyond-32917.herokuapp.com/" target="_blank" ref="noopener noreferrer">
-                        <Card style={{ width: '100%' }}>
+                    <a href="https://sheltered-beyond-32917.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                        <Card style={{ width: '100%', border: "none"  }}>
                             <Card.Img variant="top" src={google} />
                         </Card>
                     </a>
                 </Col>
                 <Col className="card-column">
                     <a href="https://szewah.github.io/word-guess-game/" target="_blank" rel="noopener noreferrer">
-                        <Card style={{ width: '100%' }}>
+                        <Card style={{ width: '100%', border: "none"  }}>
                             <Card.Img variant="top" src={hangman} />
                         </Card>       
                     </a>         
