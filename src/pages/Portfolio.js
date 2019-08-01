@@ -3,7 +3,13 @@ import Cards from '../components/Cards/Cards.js';
 
 const PortfolioCards = () => {
     return (
-        <Cards></Cards>
+        <div className="porfolioDiv">
+            <h3 className="portfolioH3">RECENT PROJECTS</h3>
+            <a href="https://github.com/szewah">
+                <i class="fab fa-github"></i>
+            </a>
+            <Cards></Cards>
+        </div>
     )
 }
 

@@ -43,10 +43,35 @@ h3.introH3 {
     color: white;
 }
 
+.aboutH3 {
+    padding-top: 100px;
+}
+
+.aboutParagraph {
+    padding-top: 20px;
+    width: 70%;
+    margin: auto;
+}
+
 .portfolioPage {
     background: #f1f1f1;
     width: 100vw;
     height: 100vh;
+}
+
+.porfolioDiv {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.portfolioH3 {
+    padding-bottom: 20px;
+}
+
+.fa-github {
+    font-size: 50px;
+    padding-bottom: 50px;
+    color: black;
 }
 
 .card-colum {
