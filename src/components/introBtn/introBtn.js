@@ -4,12 +4,21 @@ import Button from 'react-bootstrap/Button';
 
  class IntroBtn extends Component {
 
+    state = {
+        clicked: false
+    }
+
     handleOnClick = event => {
         event.preventDefault();
-        alert('I was clicked');
+        this.setState({clicked: true});
     }
 
     render() {
+        if (this.state.clicked) {
+            document.getElementById("about").scrollIntoView({ 
+                behavior: 'smooth' 
+              });
+        }
         return (
             <div className="learnMoreIntoBtn">
                 <p>Learn More</p>
