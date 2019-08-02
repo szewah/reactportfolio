@@ -3,8 +3,8 @@ import {Container} from 'react-bootstrap';
 import IntroBtn from '../components/IntroBtn/IntroBtn';
 
 
-class IntroPage extends Component {
-    render() {
+const IntroPage = () => {
+
         return (
             <div id="introPage" className='introPage'>
                 <Container>
@@ -14,7 +14,7 @@ class IntroPage extends Component {
                 </Container>
             </div>
         )
-    }
+
 }
 
 export default IntroPage;

@@ -5,10 +5,17 @@ import './style.css';
 class NavBar extends Component {
 
     state ={
+        clicked: false,
+        page: ""
+    }
 
+    handleOnClick = event => {
+        event.preventDefault();
+        this.setState({clicked:true});
     }
 
     render(){
+        // if else statements 
         return (
             <Navbar sticky="top" collapseOnSelect expand='lg' bg='dark' variant='dark'>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
