@@ -5,7 +5,7 @@ import Button from 'react-bootstrap/Button';
  class IntroBtn extends Component {
 
     state = {
-        clicked: false
+        clicked: false,
     }
 
     handleOnClick = event => {

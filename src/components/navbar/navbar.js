@@ -6,14 +6,15 @@ class NavBar extends Component {
 
     state ={
         clicked: false,
-        page: ""
+        link: ""
     }
 
     handleOnClick = event => {
         event.preventDefault();
-        this.setState({clicked:true});
-        alert(event.target);
+        this.setState({clicked:true, link: event.target});
+        // alert(event.target);
         //if else statements here?
+
     }
 
     render(){
