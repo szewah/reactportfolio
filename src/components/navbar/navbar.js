@@ -16,6 +16,7 @@ class NavBar extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
+
                     <Nav>
                         <Link
                             id="homeNavLink"
@@ -27,13 +28,14 @@ class NavBar extends Component {
                         >Home
                         </Link>
                     </Nav>
+
                     <Nav>
                         <Link
                             id="aboutNavLink"
                             to="about"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-40}
                             duration={500}
                         >About
                         </Link>
@@ -45,13 +47,24 @@ class NavBar extends Component {
                             to="portfolio"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={-40}
                             duration={500}
                         >Portfolio
                         </Link>
                     </Nav>
-                        {/* <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-                        <Nav.Link href="#contacts">Contact</Nav.Link> */} */}
+
+                    <Nav>
+                        <Link
+                            id="contactsLink"
+                            to="contacts"
+                            spy={true}
+                            smooth={true}
+                            offset={-40}
+                            duration={500}
+                        >Contact
+                        </Link>
+                    </Nav>
+
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
