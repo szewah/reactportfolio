@@ -6,6 +6,13 @@ p {
     font-weight: 200;
 }
 
+#homeNavLink,
+#aboutNavLink,
+#portfolioLink {
+    color: white;
+    padding-left: 10px;
+}
+
 .introPage {
     background: pink;
     width: 100vw;
