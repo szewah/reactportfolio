@@ -1,21 +1,11 @@
 import React, {Component} from 'react';
 import {Navbar, Nav} from 'react-bootstrap';
+import {Link, animateScroll as scroll} from 'react-scroll';
 import './style.css';
 
 class NavBar extends Component {
 
-    state ={
-        clicked: false,
-        link: ""
-    }
 
-    handleOnClick = event => {
-        event.preventDefault();
-        this.setState({clicked:true, link: event.target});
-        // alert(event.target);
-        //if else statements here?
-
-    }
 
     render(){
         // if else statements here?
@@ -24,10 +14,10 @@ class NavBar extends Component {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
-                    <Nav.Link href="#introPage" onClick={this.handleOnClick}>Home</Nav.Link>
-                    <Nav.Link href="#about" onClick={this.handleOnClick}>About</Nav.Link>
-                    <Nav.Link href="#portfolio" onClick={this.handleOnClick}>Portfolio</Nav.Link>
-                    <Nav.Link href="#contacts" onClick={this.handleOnClick}>Contact</Nav.Link>
+                    <Nav.Link href="#introPage">Home</Nav.Link>
+                    <Nav.Link href="#about">About</Nav.Link>
+                    <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                    <Nav.Link href="#contacts">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>
