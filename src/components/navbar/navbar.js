@@ -4,20 +4,25 @@ import {Link, animateScroll as scroll} from 'react-scroll';
 import './style.css';
 
 class NavBar extends Component {
+
+    // state = {
+    //     menuOpen = false;
+    // }
+
     scrollToTop = () => {
         scroll.scrollToTop();
     }
 
 
     render(){
-        // if else statements here?
+        // if else statements here to close and open menu
         return (
             <Navbar sticky="top" collapseOnSelect expand='lg' bg='dark' variant='dark'>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
 
-                    <Nav>
+                    <Nav.Link>
                         <Link
                             id="homeNavLink"
                             to="introPage"
@@ -27,9 +32,9 @@ class NavBar extends Component {
                             duration={500}
                         >Home
                         </Link>
-                    </Nav>
+                    </Nav.Link>
 
-                    <Nav>
+                    <Nav.Link>
                         <Link
                             id="aboutNavLink"
                             to="about"
@@ -39,9 +44,9 @@ class NavBar extends Component {
                             duration={500}
                         >About
                         </Link>
-                    </Nav>
+                    </Nav.Link>
 
-                    <Nav>
+                    <Nav.Link>
                         <Link
                             id="portfolioLink"
                             to="portfolio"
@@ -51,9 +56,9 @@ class NavBar extends Component {
                             duration={500}
                         >Portfolio
                         </Link>
-                    </Nav>
+                    </Nav.Link>
 
-                    <Nav>
+                    <Nav.Link>
                         <Link
                             id="contactsLink"
                             to="contacts"
@@ -63,7 +68,7 @@ class NavBar extends Component {
                             duration={500}
                         >Contact
                         </Link>
-                    </Nav>
+                    </Nav.Link>
 
                 </Nav>
             </Navbar.Collapse>
