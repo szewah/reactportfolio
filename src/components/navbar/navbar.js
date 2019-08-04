@@ -5,10 +5,6 @@ import './style.css';
 
 class NavBar extends Component {
 
-    // state = {
-    //     menuOpen = false;
-    // }
-
     scrollToTop = () => {
         scroll.scrollToTop();
     }
