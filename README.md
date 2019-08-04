@@ -6,7 +6,7 @@ React.js, React-Bootstrap, react-scroll
 
 ## Getting started
 
-Donwload the file, then...
+Download the file, then...
 
 ```
 npm install
