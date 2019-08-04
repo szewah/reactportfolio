@@ -5,7 +5,7 @@
         "node": "10.15.3"
     },
     "private": true,
-    "homepage": "https://szewah.github.io/reactportfolio/",
+    "homepage": ".",
     "dependencies": {
         "bootstrap": "^4.3.1",
         "gh-pages": "^2.0.1",
