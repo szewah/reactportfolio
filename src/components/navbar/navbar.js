@@ -7,7 +7,7 @@ import './style.css';
 class NavBar extends Component {
 
     state = {
-        navExpanded: {}
+        navExpanded: false
     }
 
     scrollToTop = () => {
@@ -37,7 +37,7 @@ class NavBar extends Component {
                             to="introPage"
                             spy={true}
                             smooth={true}
-                            offset={-70}
+                            offset={0}
                             duration={500}
                         >Home
                         </Link>
@@ -50,7 +50,7 @@ class NavBar extends Component {
                             to="about"
                             spy={true}
                             smooth={true}
-                            offset={-40}
+                            offset={-150}
                             duration={500}
                         >About
                         </Link>
@@ -63,7 +63,7 @@ class NavBar extends Component {
                             to="portfolio"
                             spy={true}
                             smooth={true}
-                            offset={-40}
+                            offset={-150}
                             duration={500}
                         >Portfolio
                         </Link>
@@ -76,7 +76,7 @@ class NavBar extends Component {
                             to="contacts"
                             spy={true}
                             smooth={true}
-                            offset={-40}
+                            offset={-150}
                             duration={500}
                         >Contact
                         </Link>
