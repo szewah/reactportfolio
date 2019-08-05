@@ -5,21 +5,34 @@ import './style.css';
 
 class NavBar extends Component {
 
+    state = {
+        expanded: {}
+    }
+
     scrollToTop = () => {
         scroll.scrollToTop();
     }
 
+    setNavExpanded = (expanded) => {
+        this.setState({navExpanded: expanded})
+    }
+
+    closeNav = () => {
+        this.setState({navExpanded: false})
+    }
 
     render(){
         // if else statements here to close and open menu
         return (
-            <Navbar sticky="top" collapseOnSelect expand='lg' bg='dark' variant='dark'>
+            <Navbar sticky="top" expand='lg' bg='dark' variant='dark' onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
+                {/* //toggle icon */}
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
 
                     <Nav.Link>
                         <Link
+                        onClick={this.closeNav}
                             id="homeNavLink"
                             to="introPage"
                             spy={true}
@@ -32,6 +45,7 @@ class NavBar extends Component {
 
                     <Nav.Link>
                         <Link
+                        onClick={this.closeNav}
                             id="aboutNavLink"
                             to="about"
                             spy={true}
@@ -44,6 +58,7 @@ class NavBar extends Component {
 
                     <Nav.Link>
                         <Link
+                        onClick={this.closeNav}
                             id="portfolioLink"
                             to="portfolio"
                             spy={true}
@@ -56,6 +71,7 @@ class NavBar extends Component {
 
                     <Nav.Link>
                         <Link
+                        onClick={this.closeNav}
                             id="contactsLink"
                             to="contacts"
                             spy={true}
