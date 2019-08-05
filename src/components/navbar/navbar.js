@@ -30,57 +30,57 @@ class NavBar extends Component {
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
 
-                    <Nav.Link>
+                    <Nav>
                         <Link
                             onClick={this.closeNav}
                             id="homeNavLink"
                             to="introPage"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={-70}
                             duration={500}
                         >Home
                         </Link>
-                    </Nav.Link>
+                    </Nav>
 
-                    <Nav.Link>
+                    <Nav>
                         <Link
                             onClick={this.closeNav}
                             id="aboutNavLink"
                             to="about"
                             spy={true}
                             smooth={true}
-                            offset={-150}
+                            offset={-40}
                             duration={500}
                         >About
                         </Link>
-                    </Nav.Link>
+                    </Nav>
 
-                    <Nav.Link>
+                    <Nav>
                         <Link
                             onClick={this.closeNav}
                             id="portfolioLink"
                             to="portfolio"
                             spy={true}
                             smooth={true}
-                            offset={-150}
+                            offset={-40}
                             duration={500}
                         >Portfolio
                         </Link>
-                    </Nav.Link>
+                    </Nav>
 
-                    <Nav.Link>
+                    <Nav>
                         <Link
                             onClick={this.closeNav}
                             id="contactsLink"
                             to="contacts"
                             spy={true}
                             smooth={true}
-                            offset={-150}
+                            offset={-40}
                             duration={500}
                         >Contact
                         </Link>
-                    </Nav.Link>
+                    </Nav>
 
                 </Nav>
             </Navbar.Collapse>
