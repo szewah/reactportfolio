@@ -3,10 +3,11 @@ import {Navbar, Nav} from 'react-bootstrap';
 import {Link, animateScroll as scroll} from 'react-scroll';
 import './style.css';
 
+
 class NavBar extends Component {
 
     state = {
-        expanded: {}
+        navExpanded: {}
     }
 
     scrollToTop = () => {
@@ -22,17 +23,16 @@ class NavBar extends Component {
     }
 
     render(){
-        // if else statements here to close and open menu
+        //solution to closing navbar on link click https://github.com/fisshy/react-scroll/issues/221
         return (
             <Navbar sticky="top" expand='lg' bg='dark' variant='dark' onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
-                {/* //toggle icon */}
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
 
                     <Nav.Link>
                         <Link
-                        onClick={this.closeNav}
+                            onClick={this.closeNav}
                             id="homeNavLink"
                             to="introPage"
                             spy={true}
@@ -45,7 +45,7 @@ class NavBar extends Component {
 
                     <Nav.Link>
                         <Link
-                        onClick={this.closeNav}
+                            onClick={this.closeNav}
                             id="aboutNavLink"
                             to="about"
                             spy={true}
@@ -58,7 +58,7 @@ class NavBar extends Component {
 
                     <Nav.Link>
                         <Link
-                        onClick={this.closeNav}
+                            onClick={this.closeNav}
                             id="portfolioLink"
                             to="portfolio"
                             spy={true}
@@ -71,7 +71,7 @@ class NavBar extends Component {
 
                     <Nav.Link>
                         <Link
-                        onClick={this.closeNav}
+                            onClick={this.closeNav}
                             id="contactsLink"
                             to="contacts"
                             spy={true}
