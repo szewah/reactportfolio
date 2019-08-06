@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.813a5d5c.chunk.css",
-    "main.js": "./static/js/main.938bbafa.chunk.js",
-    "main.js.map": "./static/js/main.938bbafa.chunk.js.map",
-    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
-    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
-    "static/js/2.04241481.chunk.js": "./static/js/2.04241481.chunk.js",
-    "static/js/2.04241481.chunk.js.map": "./static/js/2.04241481.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.bf5408dd983b9a2de6ab65a87c4f82cd.js": "./precache-manifest.bf5408dd983b9a2de6ab65a87c4f82cd.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.813a5d5c.chunk.css.map": "./static/css/main.813a5d5c.chunk.css.map",
-    "static/media/bluellama.png": "./static/media/bluellama.81f4df16.png",
-    "static/media/clickgame.png": "./static/media/clickgame.5098412f.png",
-    "static/media/eatDaBurger.png": "./static/media/eatDaBurger.66c62ff6.png",
-    "static/media/giftastic.png": "./static/media/giftastic.d19d15c1.png",
-    "static/media/google.png": "./static/media/google.60389933.png",
-    "static/media/hangman.png": "./static/media/hangman.9a408a48.png"
+    "main.css": "/reactportfolio/static/css/main.28746a3d.chunk.css",
+    "main.js": "/reactportfolio/static/js/main.fa575218.chunk.js",
+    "main.js.map": "/reactportfolio/static/js/main.fa575218.chunk.js.map",
+    "runtime~main.js": "/reactportfolio/static/js/runtime~main.d7794af4.js",
+    "runtime~main.js.map": "/reactportfolio/static/js/runtime~main.d7794af4.js.map",
+    "static/js/2.04241481.chunk.js": "/reactportfolio/static/js/2.04241481.chunk.js",
+    "static/js/2.04241481.chunk.js.map": "/reactportfolio/static/js/2.04241481.chunk.js.map",
+    "index.html": "/reactportfolio/index.html",
+    "precache-manifest.f373f067b537409a99295b933b94408b.js": "/reactportfolio/precache-manifest.f373f067b537409a99295b933b94408b.js",
+    "service-worker.js": "/reactportfolio/service-worker.js",
+    "static/css/main.28746a3d.chunk.css.map": "/reactportfolio/static/css/main.28746a3d.chunk.css.map",
+    "static/media/bluellama.png": "/reactportfolio/static/media/bluellama.81f4df16.png",
+    "static/media/clickgame.png": "/reactportfolio/static/media/clickgame.5098412f.png",
+    "static/media/eatDaBurger.png": "/reactportfolio/static/media/eatDaBurger.66c62ff6.png",
+    "static/media/giftastic.png": "/reactportfolio/static/media/giftastic.d19d15c1.png",
+    "static/media/google.png": "/reactportfolio/static/media/google.60389933.png",
+    "static/media/hangman.png": "/reactportfolio/static/media/hangman.9a408a48.png"
   }
 }
