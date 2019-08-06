@@ -5,27 +5,33 @@ import './style.css';
 
 
 class NavBar extends Component {
-
+    //we set the state of the expanded navbar to false i.e. closed
     state = {
         navExpanded: false
     }
 
+    //this function runs the react-scroll object and method that allows the scroll animation
     scrollToTop = () => {
         scroll.scrollToTop();
     }
 
+    //this function sets the navbar to expanded
     setNavExpanded = (expanded) => {
         this.setState({navExpanded: expanded})
     }
 
+    //this function sets the state of the navbar to false i.e. closed
     closeNav = () => {
         this.setState({navExpanded: false})
     }
 
     render(){
+        //the class componnent must have one function and this is the render method
         //solution to closing navbar on link click https://github.com/fisshy/react-scroll/issues/221
         return (
-            <Navbar sticky="top" expand='lg' bg='dark' variant='dark' onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
+            // onToggle is a callback that is fired when the <Navbar> body collapses or expands.
+            // expanded is a boolean that controls the visiblity of the navbar body
+            <Navbar sticky="top" expand='sm' bg='dark' variant='dark' onToggle={this.setNavExpanded} expanded={this.state.navExpanded}>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto">
@@ -37,7 +43,6 @@ class NavBar extends Component {
                             to="introPage"
                             spy={true}
                             smooth={true}
-                            offset={-70}
                             duration={500}
                         >Home
                         </Link>
@@ -47,10 +52,11 @@ class NavBar extends Component {
                         <Link
                             onClick={this.closeNav}
                             id="aboutNavLink"
-                            to="about"
+                            to="theaboutPage"
                             spy={true}
                             smooth={true}
-                            offset={-40}
+                            offset={-60}
+                            isDynamic={true}
                             duration={500}
                         >About
                         </Link>
@@ -63,7 +69,8 @@ class NavBar extends Component {
                             to="portfolio"
                             spy={true}
                             smooth={true}
-                            offset={-40}
+                            offset={-60}
+                            isDynamic={true}
                             duration={500}
                         >Portfolio
                         </Link>
@@ -76,7 +83,8 @@ class NavBar extends Component {
                             to="contacts"
                             spy={true}
                             smooth={true}
-                            offset={-40}
+                            offset={-60}
+                            isDynamic={true}
                             duration={500}
                         >Contact
                         </Link>

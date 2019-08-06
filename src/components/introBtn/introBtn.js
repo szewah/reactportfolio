@@ -15,7 +15,7 @@ import Button from 'react-bootstrap/Button';
 
     render() {
         if (this.state.clicked) {
-            document.getElementById("about").scrollIntoView({ 
+            document.getElementById("theaboutPage").scrollIntoView({ 
                 behavior: 'smooth' 
               });
         }
