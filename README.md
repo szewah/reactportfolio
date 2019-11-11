@@ -1,5 +1,5 @@
 ## React Portfolio
-My portfolio of projects built with Reac.js
+My portfolio of projects built with React.js
 
 Github pages: https://szewah.github.io/reactportfolio/
 
